@@ -9,5 +9,6 @@ Den er downloadet fra https://korpus.dsl.dk/resources/licences/dsl-open.html
 
 Tak til Emil for fonten til Oldparavisk.
 
-Success-lyd er fra https://freesound.org/people/MattLeschuck/sounds/511484/
+Success-lyd er fra https://freesound.org/people/MattLeschuck/sounds/511484/ 
+
 Fejl-lyd er fra https://freesound.org/people/distillerystudio/sounds/327737/
