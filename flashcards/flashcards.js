@@ -59,7 +59,7 @@ function multipleChoiceButtons(word) {
 function newWord() {
     oversæt.textContent = top300ord[Math.floor(Math.random() * top300ord.length)];
     if(!multipleChoice) {
-        input = ""
+        document.getElementById("svar").value = ""
     } else {
         multipleChoiceButtons(oversæt.textContent)
     }
@@ -76,7 +76,6 @@ function check(multiSvar) {
     if(multipleChoice) {
         input = multiSvar
     } else {
-        
         input = document.getElementById("svar").value
     }
 
