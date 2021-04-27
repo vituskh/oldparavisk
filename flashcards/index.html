@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Træn dit oldparavisk</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="flashcards.css">
+    <script src="top300ord.js"></script>
+    <script src="flashcards.js"></script>
+</head>
+<body>
+    
+    <div class="scoreDiv">
+        <strong>
+            Score: <span id="totalright">0</span> ud af <span id="totaltried">0</span> (<span id="percentageCorrect"> 0</span> %)
+        </strong>
+    </div>
+        <div class="flashCard">
+            <p id="rigtigtP" style="display:none; color:green"><span id="rigtigtOrd">Kaktus</span> var rigtigt!</p>
+            <p id="forkertP" style="display:none; color:red"><span id="forkertOrd">Kaktus</span> var forkert! Det rigtige var <span id="duskullesvare">goddag</span></p>
+            
+            <strong>Oversæt <span id="oversæt" class="oldparavisk">Goddag</span> til dansk</strong><br>
+            
+            <input class="input" type="text" id="svar"> <br>
+            <button class="button" onclick="check()">Check</button>
+        </div>
+    </body>
+</html>
