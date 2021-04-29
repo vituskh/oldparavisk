@@ -78,7 +78,11 @@ function check(multiSvar) {
     } else {
         input = document.getElementById("svar").value
     }
-
+    input = input.replace(/ /g, "")
+    if(input == "") {
+        alert("Skriv noget")
+        return
+    }
     var totalright = document.getElementById("totalright")
     var totaltried = document.getElementById("totaltried")
     var oversæt = document.getElementById("oversæt")
